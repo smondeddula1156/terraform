@@ -1,10 +1,10 @@
 node {
-    stage 'Stage 1'
+    stage 'Checkingout code'
        echo 'Hello World 1'
-    stage 'Stage 2'
+    stage 'Terrafrom Init'
        echo 'Hello World 2'
-    stage 'Stage 3'
+    stage 'Terraform Plan'
        echo 'Hello World 3'
-    stage 'Stage 4'
+    stage 'Terraform Apply'
        echo 'Hello World 4'
 }
